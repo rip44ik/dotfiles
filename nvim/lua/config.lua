@@ -4,11 +4,11 @@ local opt = vim.opt
 opt.encoding = 'utf-8'
 
 -- Установка языка меню
-opt.langmenu = 'ru_RU.UTF-8'
+--opt.langmenu = 'ru_RU.UTF-8'
 
 -- Установка языка сообщений
-vim.cmd('language messages ru_RU.UTF-8')
-    
+--vim.cmd('language messages ru_RU.UTF-8')
+
 opt.mouse = "i"  -- Выключить мышь во всех режимах
 opt.tabstop = 4           -- Установить количество пробелов для табуляции
 opt.shiftwidth = 4        -- Установить количество пробелов для отступа
@@ -40,7 +40,7 @@ augroup end
 ]], false)
 
 --номера строк включены
-opt.number = true 
+opt.number = true
 opt.relativenumber = true
 
 
